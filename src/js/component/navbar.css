@@ -1,0 +1,7 @@
+.search-bar {
+    width: 300px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    position: relative; /* Establece la posición relativa para permitir ajustes de z-index */
+    z-index: 1000; /* Ajusta el valor según sea necesario para que la barra de búsqueda esté por encima del contenido */
+}
